@@ -58,21 +58,6 @@ The model was trained and evaluated on a dataset of **2,500+ MRI images**, achie
 
 ---
 
-## 🧠 Model Architecture
-
-Input (224x224x3)
-│
-├── VGG16 base (frozen layers)
-│
-├── Flatten
-├── Dense (256, ReLU)
-├── Dropout (0.3)
-├── Dense (128, ReLU)
-├── Dropout (0.2)
-└── Dense (4, Softmax)
-
----
-
 ## ⚙️ How to Run
 
 1. **Clone this repository**
@@ -93,6 +78,7 @@ dataset/
   │   ├── VeryMildDemented/
   │   └── NonDemented/
   └── test/
+
 
 4. **Train the model**
 
