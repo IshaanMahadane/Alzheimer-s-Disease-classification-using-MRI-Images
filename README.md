@@ -84,9 +84,6 @@ Input (224x224x3)
 
    pip install -r requirements.txt   
 
-## 🧠 Model Architecture
-Add dataset
-
 3. **Place MRI images under dataset/ with subfolders:**
 
 dataset/
