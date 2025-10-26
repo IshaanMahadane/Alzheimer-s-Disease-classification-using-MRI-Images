@@ -71,13 +71,14 @@ The model was trained and evaluated on a dataset of **2,500+ MRI images**, achie
 
 3. **Place MRI images under dataset/ with subfolders:**
 
-dataset/
-  ├── train/
-  │   ├── MildDemented/
-  │   ├── ModerateDemented/
-  │   ├── VeryMildDemented/
-  │   └── NonDemented/
-  └── test/
+📁 dataset/
+├── 📁 train/
+│   ├── 📁 MildDemented/
+│   ├── 📁 ModerateDemented/
+│   ├── 📁 VeryMildDemented/
+│   └── 📁 NonDemented/
+└── 📁 test/
+
 
 
 4. **Train the model**
